@@ -4,12 +4,12 @@
 git clone -b docker-redis-6.0.6 https://github.com/mathcoder23/scripts.git docker-redis-6.0.6
 cd docker-redis-6.0.6
 ```
-1. 安装redis
+2. 安装redis
 ```shell
 chmod +x ./install.sh
 ./install.sh
 ```
-2. redis.conf 说明
+3. redis.conf 说明
 ```shell
 在原版配置的基础下修改了以下配置
 bind 0.0.0.0 #注释掉这部分，使redis可以外部访问
@@ -19,7 +19,7 @@ appendonly yes#redis持久化　　默认是no
 tcp-keepalive 300 #防止出现远程主机强迫关闭了一个现有的连接的错误 默认是300
 ```
 
-3. 验证redis
+4. 验证redis
 ```shell
 # 临时创建redis客户端容器
 docker run -it redis:6.0.6 /bin/bash
