@@ -1,7 +1,8 @@
 # docker-redis-6.0.6
 1. 拉取源码
-```angular2
-
+```shell script
+git clone -b docker-redis-6.0.6 https://github.com/mathcoder23/scripts.git docker-redis-6.0.6
+cd docker-redis-6.0.6
 ```
 1. 安装redis
 ```shell
