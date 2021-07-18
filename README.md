@@ -1,10 +1,10 @@
-# template
-> template desc
+# docker-sonic
+> 轻量级的全文检索引擎
 
 # 获取源码
 ```shell script
-git clone -b template https://github.com/mathcoder23/scripts.git template
-cd template
+git clone -b docker-sonic https://github.com/mathcoder23/scripts.git docker-sonic
+cd docker-sonic
 ```
 
 # 安装
