@@ -7,3 +7,6 @@
 # 脚本列表
 ## docker-redis-6.0.6
 > 提供docker的方式运行redis6.0.6版本，并且配置文件和redis持久化数据挂在都本机
+
+## docker-compose-minio
+> minio文件系统服务
