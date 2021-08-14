@@ -3,8 +3,8 @@
 
 # 获取源码
 ```shell script
-git clone -b template https://github.com/mathcoder23/scripts.git template
-cd template
+git clone -b docker-mysql8 https://github.com/mathcoder23/scripts.git docker-mysql8
+cd docker-mysql8
 ```
 
 # 安装
